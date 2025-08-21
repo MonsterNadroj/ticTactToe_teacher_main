@@ -104,3 +104,56 @@ while total_moves < 9:
                 three_in_a_row = 1
                 print("Player X WINS!")
                 break
+            elif cell_position[3] == "X" and cell_position[4] == "X" and cell_position[5] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            elif cell_position[6] == "X" and cell_position[7] == "X" and cell_position[8] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            elif cell_position[0] == "X" and cell_position[3] == "X" and cell_position[6] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            elif cell_position[0] == "X" and cell_position[4] == "X" and cell_position[8] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            elif cell_position[2] == "X" and cell_position[4] == "X" and cell_position[6] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            elif cell_position[1] == "X" and cell_position[4] == "X" and cell_position[7] == "X":
+                three_in_a_row = 1
+                print("Player X WINS!")
+                break
+            else:
+                if cell_position[0] == "O" and cell_position[1] == "O" and cell_position[2] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[3] == "O" and cell_position[4] == "O" and cell_position[5] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[6] == "O" and cell_position[7] == "O" and cell_position[8] == ("O"):
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[0] == "O" and cell_position[3] == "O" and cell_position[6] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[0] == "O" and cell_position[4] == "O" and cell_position[8] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[2] == "O" and cell_position[4] == "O" and cell_position[6] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
+                elif cell_position[1] == "O" and cell_position[4] == "O" and cell_position[7] == "O":
+                    three_in_a_row = 1
+                    print("Player O WINS!")
+                    break
